@@ -74,7 +74,7 @@ async function updateDiscordStatus() {
             // ИГРАЕТ - иконка контроллера
             activityTitle.textContent = 'Играет';
             activityDesc.textContent = gameActivity.name.trim();
-            activityIcon.src = 'https://i.postimg.cc/xdP1P5qf/free-icon-gamepad-528088.png';
+            activityIcon.src = 'asssets/game.png';
             activityIcon.style.filter = 'none';
             
             // Продолжительность игры
