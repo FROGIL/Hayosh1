@@ -32,6 +32,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    span{
+        text-shadow: #7BAE52 0 0 6px,#7BAE52 0 0 15px;
+        color: #7BAE52;
+    }
 }
 
 /* ===== НАВИГАЦИЯ ===== */
@@ -433,5 +437,33 @@ body {
             text-shadow: #7BAE52 0 0 6px,
             #7BAE52 0 0 15px;
         }
+    }
+}
+
+.end{
+    background-color: #121212;
+    border-top: solid #7BAE52;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: Gotham_Pro_Light;
+    a{
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a:hover{
+        color: #7BAE52;
+        text-shadow: #7BAE52 0 0 6px,#7BAE52 0 0 15px;
+    }
+    p{
+        line-height: 5px;
+        padding-left: 20px;
+    }
+    span{
+        color: #7BAE52;
+        text-shadow: #7BAE52 0 0 6px,#7BAE52 0 0 15px;
     }
 }
